@@ -46,7 +46,7 @@ def ret_ret_mcas(pdc):
             pi3d.gated_counter.set_n_values(mcas)
         return mcas
     return ret_mcas
-
+# __LASER_DUR_DICT__ = {'14n+1': .175, '14n-1': .175, '14n': .175, '14n0': .2, '13c414': .2, '13c90': .21, 'single_state': .2, 'charge_state': 2000.0}
 def settings(pdc={}):
     ana_seq=[
         ['result', '<', 0, 0, 10, 2],
